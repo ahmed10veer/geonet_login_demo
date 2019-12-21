@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='geonet_login_demo'
