@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/box_tv"
-            android:drawableStart="@android:drawable/ic_dialog_email"
+            android:drawableStart="@drawable/icon_user_32"
             android:drawablePadding="8dp"
             android:drawableTint="@color/lightBlue"
             android:hint="Phone/E-mail"
