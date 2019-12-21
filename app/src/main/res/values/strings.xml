@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">geonet_login_demo</string>
+    <string name="app_name">GeoNet Demo</string>
+    <string name="login_ids">aaa,bbb,ccc,ddd</string>
+    <string name="login_passs">111,222,333,444</string>
 </resources>
