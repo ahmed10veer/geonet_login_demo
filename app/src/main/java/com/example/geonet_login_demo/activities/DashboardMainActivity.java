@@ -20,7 +20,9 @@ public class DashboardMainActivity extends AppCompatActivity {
 
         setTitle(getResources().getString(R.string.app_name));
 
-        ((TextView) findViewById(R.id.tv_dashboard_userid)).setText("Logged In User: " + SharedPreferenceManager.getLoggedInUserID(DashboardMainActivity.this));
+        String logged_in_user = ((getResources().getString(R.string.logged_in_user)) + SharedPreferenceManager.getLoggedInUserID(DashboardMainActivity.this));
+
+        ((TextView) findViewById(R.id.tv_dashboard_userid)).setText(logged_in_user);
 
         Button btn_logout = findViewById(R.id.btn_logout);
 

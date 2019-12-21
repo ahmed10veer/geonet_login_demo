@@ -51,13 +51,13 @@ public class LoginUserActivity extends AppCompatActivity {
             startActivity(new Intent(LoginUserActivity.this, DashboardMainActivity.class));
             finish();
         } else {
+//        else show dialog wrong id pass, clr password
             Toast.makeText(this, "Wrong ID and/or password. please try again.", Toast.LENGTH_LONG).show();
 
 //             ((EditText) findViewById(R.id.et_id)).setText("");
             ((EditText) findViewById(R.id.et_pass)).setText("");
         }
 
-//        else show dialog wrong id pass, clr password
     }
 
     boolean checkCred(String id, String pass) {
