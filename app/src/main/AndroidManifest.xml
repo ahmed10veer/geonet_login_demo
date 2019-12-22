@@ -9,10 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.LoginUserActivity"></activity>
-        <activity android:name=".activities.DashboardMainActivity" />
-        <activity android:name=".activities.LauncherActivity"
+        <activity
+            android:name=".activities.LoginUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DashboardMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.LauncherActivity"
             android:theme="@style/AppTheme.Splash">
+            android:screenOrientation="portrait"
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
